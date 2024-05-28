@@ -21,14 +21,14 @@ const HomePage = () => {
             facilis tempora maiores.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="px-4 py-2 rounded-lg bg-fuchsia-500 text-white mt-5 uppercase">
+            <button className="px-4 py-2 rounded-lg  bg-gradient-to-t from-fuchsia-400 to-fuchsia-600 hover:to-fuchsia-800 hover:font-semibold text-white mt-5 uppercase">
               about me
             </button>
           </div>
 
           <div className="flex justify-center md:justify-start gap-4 mt-8">
             <a href="https://github.com/chalund">
-              <img src={github} alt="github icon" className="h-12 w-12" />
+              <img src={github} alt="github icon" className="h-12 w-12 bg-white rounded-full" />
             </a>
             <a href="https://www.instagram.com/superlottis/">
               <img src={instagram} alt="instagram icon" className="h-12 w-12" />
@@ -79,7 +79,7 @@ const HomePage = () => {
             impedit sit debitis ut autem!
             <div className="flex justify-center md:justify-start">
               <button
-                className="px-4 py-2 rounded-lg bg-fuchsia-500 text-white mt-5 uppercase"
+                className="px-4 py-2 rounded-lg bg-gradient-to-t from-fuchsia-400 to-fuchsia-600 hover:to-fuchsia-800 hover:font-semibold text-white mt-5 uppercase"
                 onClick={() => {
                   window.location.href = "mailto:chalund@gmail.com";
                 }}

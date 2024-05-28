@@ -56,7 +56,7 @@ const AboutPage = () => {
 
         <div className="flex justify-center ">
           <button
-            className="px-4 py-2 rounded-lg bg-fuchsia-500 text-white mt-10 mb-5 uppercase"
+            className="px-4 py-2 rounded-lg  bg-gradient-to-t from-fuchsia-400 to-fuchsia-600 hover:to-fuchsia-800 hover:font-semibold text-white mt-10 mb-5 uppercase"
             onClick={() => {
               window.location.href = "mailto:chalund@gmail.com";
             }}

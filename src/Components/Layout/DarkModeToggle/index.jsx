@@ -20,7 +20,7 @@ const DarkModeToggle = () => {
         <span className="block h-6 w-11 rounded-full border border-gray-950/5 bg-gray-200 transition duration-300 peer-checked:border-fuchsia-500 peer-checked:bg-fuchsia-500"></span>
       </label>
       <button onClick={toggleTheme} className="text-xs">
-        {theme === "light" ? "Dark Mode" : "Light Mode"}
+        {theme === "light" ? "Light Mode" : "Dark Mode"}
       </button>
     </div>
   );
