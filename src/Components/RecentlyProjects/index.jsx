@@ -3,7 +3,6 @@ import sortedProjects from "../../data";
 import Card from "../Card";
 
 const RecentlyProjects = () => {
-  // Get the three latest projects by date
   const latestProjects = sortedProjects.slice(0, 3);
 
   return (

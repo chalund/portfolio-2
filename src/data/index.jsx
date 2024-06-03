@@ -10,7 +10,7 @@ const projects = [
     name: "Rainydays",
     assignment: "Javascript-1",
     description:
-      "Modify existing cross-course project Rainydays, fetch products from external API. Rainydays is an online shop selling mens and womans rain jackets.",
+      "Rainy days is the very first project created. Rainydays is an online shop selling mens and woman’s rain jackets. Its been a cross course project with updating styles and adding APIs",
     image: rainydays_1,
     github_link:
       "https://github.com/chalund/Rainydays-cross-course-project-.git",
@@ -19,9 +19,9 @@ const projects = [
   },
   {
     name: "Community Science Museum",
-    assignment: "Semester Project 2",
+    assignment: "Semester Project 1",
     description:
-      "An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children",
+      "Semester Project 1 involved building a website for a children's museum, showcasing skills acquired in the first semester. Developed using HTML and CSS",
     image: CSM_1,
     github_link: "https://github.com/chalund/Semesterproject-1.git",
     netlify_link: "https://semesterproject-1-charlottelund.netlify.app/",
@@ -30,7 +30,8 @@ const projects = [
   {
     name: "Life Above the arctic circle",
     assignment: "Project Exam 1",
-    description: "",
+    description:
+      "For the first-year exam, I crafted a personal blog utilizing WordPress as a headless CMS. Developed with HTML, CSS, and JS.",
     image: blog_1,
     github_link: "https://github.com/chalund/Exam-1.git",
     netlify_link: "https://lifeabove.netlify.app/",
@@ -40,7 +41,7 @@ const projects = [
     name: "eBids",
     assignment: "Semester Project 2",
     description:
-      "An auction site where users can add items to be bid on and bid on items other users have put up for auction",
+      "Semester project 2 , developing an auction site that empowers users to list items for auction and participate in bidding for desired items. Developed with bootstrap as a frameworks",
     image: ebids_1,
     github_link: "https://github.com/chalund/SemesterProject-2.git",
     netlify_link: "https://ebids.netlify.app/",
@@ -49,7 +50,8 @@ const projects = [
   {
     name: "ReBuy",
     assignment: "JavaScript Framework",
-    description: "eCom store build with React",
+    description:
+      "Rebuy is a modern e-commerce web application built as a course assignment for JavaScript frameworks at Noroff. It is developed using ReactVite and Tailwind CSS.",
     image: rebuy_1,
     github_link: "https://github.com/chalund/js-framework-ca.git",
     netlify_link: "https://rebuy-store.netlify.app/",
@@ -59,10 +61,10 @@ const projects = [
     name: "Holidaze",
     assignment: "Project Exam 2",
     description:
-      "Holidaze is an accommodation booking web application created as the final exam for Frontend Development at Noroff",
+      "Holidaze is an accommodation booking web application created as the final exam for Frontend Development at Noroff. Built with ReactVite and Tailwind CSS.",
     image: holidaze_1,
     github_link: "https://github.com/chalund/exam-2.git",
-    netlify_link: "https://exam-charlottelund.netlify.app/",
+    netlify_link: "https://github.com/chalund/exam-2.git",
     date: "20.05.2024",
   },
 ];

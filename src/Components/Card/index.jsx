@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Card = ({ project }) => {
   return (
-    <div className="w-80 rounded bg-white overflow-hidden shadow-lg hover:border-2 hover:border-fuchsia-500 flex flex-col">
+    <div className="w-72 rounded bg-white overflow-hidden shadow-lg hover:border-2 hover:border-fuchsia-500 flex flex-col">
       <div>
         <img
           className="w-full h-52"
