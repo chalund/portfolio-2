@@ -18,7 +18,7 @@ const NavLinks = ({ closeMenu }) => {
     <>
       <NavLink
         to="/"
-        className={`mb-2 p-2 text-xl uppercase hover:bg-fuchsia-500 hover:text-white md:px-4  md:hover:bg-zinc-50 md:hover:dark:bg-zinc-800 md:hover:font-bold md:hover:text-fuchsia-500 ${isActiveNavLink(
+        className={`mb-2 p-2 text-xl uppercase font-medium hover:bg-fuchsia-500 hover:text-white md:px-4  md:hover:bg-zinc-50 md:hover:dark:bg-zinc-800 md:hover:font-medium md:hover:text-fuchsia-500 ${isActiveNavLink(
           "/"
         )}`}
         onClick={handleNavLinkClick}
@@ -27,7 +27,7 @@ const NavLinks = ({ closeMenu }) => {
       </NavLink>
       <NavLink
         to="/my_work"
-        className={`mb-2 p-2 text-xl uppercase whitespace-nowrap hover:bg-fuchsia-500 hover:text-white md:px-4  md:hover:bg-zinc-50 md:hover:dark:bg-zinc-800 md:hover:font-bold md:hover:text-fuchsia-500 ${isActiveNavLink(
+        className={`mb-2 p-2 text-xl uppercase whitespace-nowrap font-medium hover:bg-fuchsia-500 hover:text-white md:px-4  md:hover:bg-zinc-50 md:hover:dark:bg-zinc-800 md:hover:font-medium md:hover:text-fuchsia-500 ${isActiveNavLink(
           "/my_work"
         )}`}
         onClick={handleNavLinkClick}
@@ -36,7 +36,7 @@ const NavLinks = ({ closeMenu }) => {
       </NavLink>
       <NavLink
         to="/about"
-        className={`mb-2 p-2 text-xl uppercase hover:bg-fuchsia-500 hover:text-white md:px-4  md:hover:bg-zinc-50 md:hover:dark:bg-zinc-800 md:hover:font-bold md:hover:text-fuchsia-500 ${isActiveNavLink(
+        className={`mb-2 p-2 text-xl uppercase font-medium hover:bg-fuchsia-500 hover:text-white md:px-4  md:hover:bg-zinc-50 md:hover:dark:bg-zinc-800 md:hover:font-medium md:hover:text-fuchsia-500 ${isActiveNavLink(
           "/about"
         )}`}
         onClick={handleNavLinkClick}
@@ -63,12 +63,12 @@ const Nav = () => {
       <nav className="lg:w-1/3 flex justify-end">
         <div className="hidden w-full justify-between md:flex">
           <NavLinks closeMenu={closeMenu} />
-          <div className="mt-3">
+          <div className="mt-2 ms-2">
             <DarkModeToggle />
           </div>
         </div>
         <div className="flex md:hidden">
-          <div className="mr-6 mt-5">
+          <div className="mr-4 mt-2">
             <DarkModeToggle />
           </div>
           <button onClick={toggleNavBar}>

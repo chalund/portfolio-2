@@ -1,13 +1,8 @@
 import React from "react";
-import selfie from "../../assets/images/charlotteLund.jpg";
+import selfie from "../../assets/images/charlotte.jpg";
 import { Link } from "react-router-dom";
 import RecentlyProjects from "../../Components/RecentlyProjects";
-import {
-  githubIcon,
-  linkedInIcon,
-  instagramIcon,
-  envelope,
-} from "../../assets/icons";
+import { githubIcon, linkedInIcon, envelope } from "../../assets/icons";
 
 const HomePage = () => {
   return (
@@ -34,13 +29,6 @@ const HomePage = () => {
                 src={githubIcon}
                 alt="github icon"
                 className="h-12 w-12 bg-white rounded-full"
-              />
-            </a>
-            <a href="https://www.instagram.com/superlottis/">
-              <img
-                src={instagramIcon}
-                alt="instagram icon"
-                className="h-12 w-12"
               />
             </a>
             <a href="https://www.linkedin.com/in/charlotte-lund88/">
@@ -85,22 +73,30 @@ const HomePage = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 p-4">
-            I'm available for work and excited to dive into new opportunities.
-            If you have a role or project that matches my skills and experience,
-            please feel free to reach out. Thank you!{" "}
-            <div className="flex justify-center md:justify-start">
-              <button
-                className="px-4 py-2 rounded-lg bg-gradient-to-t from-fuchsia-400 to-fuchsia-600 hover:to-fuchsia-800 hover:font-semibold text-white mt-5 uppercase"
-                onClick={() => {
-                  window.location.href = "mailto:chalund@gmail.com";
-                }}
-              >
-                Contact me
-              </button>
-            </div>
+            <p>
+              Feel free to reach out if you have any questions, want to work
+              together on projects, have something specific in mind, or just
+              want to say hello. I'm open to new opportunities and would love to
+              connect with you!{" "}
+            </p>
           </div>
-          <div className="hidden md:flex justify-center items-center md:w-1/2">
-            <img src={envelope} alt="envelope icon" className=" h-36 w-36" />
+          <div className="md:w-1/2 md:ms-6">
+            <div className="flex items-center gap-3">
+              <div className="border rounded-full h-24 w-24 hover:border-fuchsia-500">
+                <button
+                  onClick={() => {
+                    window.location.href = "mailto:chalund@gmail.com";
+                  }}
+                >
+                  <img src={envelope} alt="envelope icon" className="p-4 " />
+                </button>
+              </div>
+
+              <div>
+                <p className="font-medium text-lg">Mail:</p>
+                <p className="text-lg">chalund@gmail.com</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
