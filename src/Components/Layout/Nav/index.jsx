@@ -64,12 +64,12 @@ const Nav = () => {
         <div className="hidden w-full justify-between md:flex">
           <NavLinks closeMenu={closeMenu} />
           <div className="mt-2 ms-2">
-            <DarkModeToggle />
+          <DarkModeToggle aria-label="Toggle Dark Mode" />
           </div>
         </div>
         <div className="flex md:hidden">
           <div className="mr-4 mt-2">
-            <DarkModeToggle />
+          <DarkModeToggle aria-label="Toggle Dark Mode" />
           </div>
           <button onClick={toggleNavBar}>
             {isOpen ? <IoClose size={40} /> : <IoMenu size={40} />}{" "}
