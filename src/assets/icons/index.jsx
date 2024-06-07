@@ -9,8 +9,7 @@ import tailwindIcon from "./tailwindCSS.png"
 import figmaIcon from "./figma.png"
 import githubIcon from "./github.png"
 import linkedInIcon from "./linkedin.png"
-import instagramIcon from "./instagram.png"
 import envelope from "./envelope.png"
 
 
-export { htmlIcon, cssIcon, jsIcon, bootstrapIcon, sassIcon, reactIcon, viteIcon, tailwindIcon, figmaIcon, githubIcon, linkedInIcon, instagramIcon, envelope}
+export { htmlIcon, cssIcon, jsIcon, bootstrapIcon, sassIcon, reactIcon, viteIcon, tailwindIcon, figmaIcon, githubIcon, linkedInIcon, envelope}

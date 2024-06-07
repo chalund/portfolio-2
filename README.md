@@ -1,6 +1,6 @@
 # Portfolio-2
 
-![Screenshot](./src/assets/images/screenshot.jpg)
+![Screenshot](./src/assets/images/screenshotOfPortfolio.jpg)
 
 ## Description
 
