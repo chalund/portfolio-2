@@ -64,7 +64,7 @@ const projects = [
       "Holidaze is an accommodation booking web application created as the final exam for Frontend Development at Noroff. Built with ReactVite and Tailwind CSS.",
     image: holidaze_1,
     github_link: "https://github.com/chalund/exam-2.git",
-    netlify_link: "https://github.com/chalund/exam-2.git",
+    netlify_link: "https://exam-charlottelund.netlify.app/",
     date: "20.05.2024",
   },
 ];
