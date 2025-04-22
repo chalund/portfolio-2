@@ -4,7 +4,7 @@
 
 ## Description
 
-[Portfolio](https://portfolio-2-charlottelund.netlify.app/): Who am I, my project and contact info.
+[Portfolio](https://portfolio-charlottelund.netlify.app/): Who am I, my project and contact info.
 
 This portfolio showcases some of my assignments completed during my time at Noroff. Each project includes a live link and corresponding GitHub repository for convenient access to my work. Should you have any inquiries or wish to explore potential collaborations, please don't hesitate to reach out using the provided contact information
 
